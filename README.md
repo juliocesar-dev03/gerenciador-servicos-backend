@@ -1,10 +1,8 @@
-# Sistema de Gerenciamento de Serviços Técnicos
+# Sistema de Gerenciamento de Serviços Técnicos - Backend
 
 Backend de um sistema para gerenciamento de serviços técnicos de uma empresa de eletrotécnica, desenvolvido em **Java com Spring Boot**, com foco em **modelagem de domínio realista**, **arquitetura REST** e **polimorfismo com JPA e Jackson**.
 
 O sistema permite o cadastro, consulta, atualização, conclusão e exclusão de diferentes tipos de serviços técnicos, cada um com características próprias.
-
----
 
 ## Tipos de Serviço Suportados
 
@@ -17,8 +15,6 @@ O sistema foi modelado para trabalhar com múltiplos tipos de serviço utilizand
 - Serviço Básico
 
 Cada tipo possui seus próprios campos e regras, mantendo uma estrutura unificada no backend.
-
----
 
 ## Arquitetura e Conceitos Utilizados
 
@@ -34,8 +30,6 @@ Cada tipo possui seus próprios campos e regras, mantendo uma estrutura unificad
   - Uso de `@JsonTypeInfo` e `@JsonSubTypes`
 - **Banco H2** (ambiente de desenvolvimento)
 - **Lombok** para redução de boilerplate
-
----
 
 ## 🔄 Polimorfismo com JPA + Jackson
 
@@ -90,8 +84,13 @@ Os endpoints foram testados utilizando Postman, validando:
 - Conclusão de serviços
 - Exclusão
 
-## Futura integração com frontend Angular
+## Frontend do Projeto
+
+Este sistema possui um frontend desenvolvido em Angular, responsável pela interface de gerenciamento dos serviços técnicos.
+
+Repositório do frontend:
+https://github.com/juliocesar-dev03/gerenciador-servicos-frontend
 
 ## Autor
 
-Projeto desenvolvido por **Júlio César** com foco em aprendizado prático, boas práticas de backend e construção de um portfólio em Java e Spring Boot
+Desenvolvido por **Júlio César**
